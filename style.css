@@ -3,14 +3,24 @@
   font-family outfit ;
   src: url(/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
-body{ display: grid;
+body{ display: grid inline-block;
 gap: 4rem; 
-background-color: hsl(30, 54%, 90%);}
-.conteudo {justify-items: center; background-color: white;  }
+background-color: hsl(30, 54%, 90%);} 
+
+.conteudo {justify-items: center; background-color: white; margin: 0rem 10rem; margin-top: 5rem; border-radius: 2rem; }
+
 .texto{  background-color: white; display: block;}
 
+
+.texto h1 { font-size: 2.5rem;}
 img{ max-width: 100%; }
-.imagem{display: grid; justify-content: center; width: 40rem;}
+
+img { margin-top: 2rem;}
+.imagem{
+  align-items: center 
+; width: 40rem;}
+
+
 
 p, li{font-family: outfit; font-size: 1rem;}
 h1 , h2 { font-family: young-serif;}
