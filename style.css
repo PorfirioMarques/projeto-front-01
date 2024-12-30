@@ -4,23 +4,37 @@
   src: url(/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 body{ display: grid inline-block;
-gap: 4rem; 
+gap: 4rem; max-width: 1440px;
 background-color: hsl(30, 54%, 90%);} 
 
 .conteudo {justify-items: center; background-color: white; margin: 0rem 10rem; margin-top: 5rem; border-radius: 2rem; }
 
-.texto{  background-color: white; display: block;}
+.texto{ padding: 5rem; background-color: white; display: block; line-height: 2rem; padding-bottom: 0rem;}
 
 
 .texto h1 { font-size: 2.5rem;}
-img{ max-width: 100%; }
+ 
 
-img { margin-top: 2rem;}
-.imagem{
+img { max-width: 100%; margin-top: 2rem;border-radius: 1rem}
+
+.imagem{ 
   align-items: center 
 ; width: 40rem;}
 
+.preparo {width: 55rem;
+  justify-self:left; padding: 1rem  2rem; border-radius: 2rem;
+  background-color:   hsl(330, 100%, 98%); margin-left: 5rem;line-height: 3rem;}
 
+.preparo h2 {color: hsl(332, 51%, 32%) }
 
-p, li{font-family: outfit; font-size: 1rem;}
+p, li{font-family: outfit; font-size: 1.2rem;}
 h1 , h2 { font-family: young-serif;}
+
+.h2 { color: hsl(14, 45%, 36%) ;font-size: 2rem;}
+
+.ingredientes { justify-self: left;
+margin-left: 5rem; line-height: 2rem; margin-top: 2.5rem; }
+
+.instrucões { margin-left: 5rem;}
+
+.lista1 { list-style:blue ;}
